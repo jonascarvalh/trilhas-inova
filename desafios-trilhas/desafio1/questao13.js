@@ -1,5 +1,5 @@
 function areaCirculo(raio) {
-    return Math.PI * Math.pow(raio, 2)
+    return Math.PI * Math.pow(raio, 2);
 }
 
 var raio = 10;

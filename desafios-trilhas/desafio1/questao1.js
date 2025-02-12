@@ -1,3 +1,3 @@
-var nome = "Jonas"
+var nome = "Jonas";
 
-console.log(nome)
+console.log(nome);

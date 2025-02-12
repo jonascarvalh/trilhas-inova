@@ -16,4 +16,4 @@ function main() { // Função principal
 }
 
 // Chamada para função principal
-main()
+main();

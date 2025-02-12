@@ -6,7 +6,7 @@ for (var i = 1; i <= 10; i++) {
 // Loop com while
 var i = 1;
 while (i<=10) {
-    console.log(i)
+    console.log(i);
     i++;
 }
 

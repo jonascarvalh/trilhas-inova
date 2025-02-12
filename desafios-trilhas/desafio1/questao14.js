@@ -11,4 +11,4 @@ function somarNumeros(numero1, numero2) {
 var soma = somarNumeros(numero1, numero2);
 
 // Saída da soma de dois números
-console.log(`${numero1} + ${numero2} = ${soma}`)
+console.log(`${numero1} + ${numero2} = ${soma}`);
