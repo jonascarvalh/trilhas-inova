@@ -8,7 +8,7 @@ let saldoDisponivel = 1000;
 
 alert('Preencha todos os campos')
 
-let mensagemErro = 'Erro! Preencvha todos os campos.'
+let mensagemErro = 'Erro! Preencha todos os campos.'
 let nomeUsuario  = prompt('Qual é o seu nome?')
 let idadeUsuario = prompt('Qual a sua idade?')
 
