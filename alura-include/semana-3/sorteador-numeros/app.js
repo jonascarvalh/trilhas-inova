@@ -24,11 +24,26 @@ function alterarStatusBotao (botao, classeHabilitado, classeDesabilitado) {
     }
 }
 
+function validarEntradas(quantidadeNumeros, numeroInicial, numeroFinal) {
+    if (numeroInicial >= numeroFinal) {
+        alert('O número inicial deve ser menor que o final.');
+        return true;
+    }
+
+    if (numeroFinal - numeroInicial <= quantidadeNumeros) {
+        alert('A quantidade de números deve ser menor que o intervalo entre o número inicial e final.');
+        return true;
+    }
+}
 function sortear() {
     let quantidadeNumeros = parseInt(document.getElementById('quantidade').value);
     let numeroInicial     = parseInt(document.getElementById('de').value);
     let numeroFinal       = parseInt(document.getElementById('ate').value);
-    
+
+    if (validarEntradas(quantidadeNumeros, numeroInicial, numeroFinal)) {
+        return;
+    }
+
     let numerosSorteados = [];
 
     for (let i = 0; i < quantidadeNumeros; i++) {
