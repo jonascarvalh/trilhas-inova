@@ -35,6 +35,7 @@ function validarEntradas(quantidadeNumeros, numeroInicial, numeroFinal) {
         return true;
     }
 }
+
 function sortear() {
     let quantidadeNumeros = parseInt(document.getElementById('quantidade').value);
     let numeroInicial     = parseInt(document.getElementById('de').value);
